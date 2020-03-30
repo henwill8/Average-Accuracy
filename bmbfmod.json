@@ -1,0 +1,23 @@
+{
+    "id": "Accuracy",
+    "name": "Average Accuracy",
+    "author": "Henwill8",
+    "description": [
+        
+    ],
+    "category": "Gameplay",
+    "gameVersion": "1.6.0",
+    "version": "0.1.0",
+    "platform": "Quest",
+    "components": [
+        {
+            "type": "HookMod",
+            "installAction": {
+                "installLibraryFile": "libaccuracy.so"
+            },
+            "uninstallAction": {
+                "removeLibraryFile": "libaccuracy.so"
+            }
+        }
+    ]
+}
